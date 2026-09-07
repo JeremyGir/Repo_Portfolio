@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio profesional.">
+  <meta name="robots" content="index, follow">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Portfolio">
+  <meta property="og:description" content="Portfolio profesional.">
+  <meta property="og:url" content="">
+
+  <title>Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; img-src 'self' data:; media-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; frame-src 'none'; form-action 'self' mailto:">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="Ir al inicio">Portfolio</a>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Cambiar tema claro u oscuro">
+        <svg class="icon theme-icon" aria-hidden="true" focusable="false"><use href="#icon-moon"></use></svg>
+      </button>
+      <div id="lang-toggle" class="lang-toggle" role="group" aria-label="Cambiar idioma">
+        <button class="lang-btn active" data-lang="es" type="button">ES</button>
+        <button class="lang-btn" data-lang="en" type="button">EN</button>
+      </div>
+      <nav class="nav" aria-label="Navegacion principal">
+        <button id="nav-toggle" class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Abrir menu">
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+        </button>
+        <ul id="nav-menu" class="nav-menu">
+          <li><a href="#home" class="nav-link">Inicio</a></li>
+          <li><a href="#about" class="nav-link">Sobre mi</a></li>
+          <li><a href="#experience" class="nav-link">Experiencia</a></li>
+          <li><a href="#knowledge" class="nav-link">Conocimientos</a></li>
+          <li><a href="#projects" class="nav-link">Proyectos</a></li>
+          <li><a href="#contact" class="nav-link">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="home" class="section hero" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="hero-greeting" id="hero-greeting"></p>
+          <h1 class="hero-title" id="hero-title"></h1>
+          <p class="hero-role" id="hero-role"></p>
+          <p class="hero-description" id="hero-description"></p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">Ver proyectos</a>
+            <a href="#contact" class="btn btn-secondary">Contactarme</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-image-wrap" id="hero-image-wrap"></div>
+          <a id="hero-cv-btn" class="btn btn-secondary hero-cv-btn is-hidden" href="#" download></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about" aria-labelledby="about-title">
+      <div class="container">
+        <h2 class="section-title" id="about-title"></h2>
+        <div class="about-grid">
+          <figure id="about-photo" class="about-photo">
+            <img src="" alt="">
+          </figure>
+          <div class="about-body">
+            <h3 class="about-name" id="about-name"></h3>
+            <p class="about-role" id="about-role"></p>
+            <p class="about-description" id="about-description"></p>
+            <ul class="about-details" id="about-details"></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section experience" aria-labelledby="experience-title">
+      <div class="container">
+        <h2 class="section-title" id="experience-title"></h2>
+        <div class="experience-grid" id="experience-grid"></div>
+      </div>
+    </section>
+
+    <section id="knowledge" class="section knowledge" aria-labelledby="knowledge-title">
+      <div class="container">
+        <h2 class="section-title" id="knowledge-title"></h2>
+        <div class="knowledge-toolbar">
+          <div class="knowledge-filters" id="knowledge-filters" role="group" aria-label="Filtrar conocimientos"></div>
+          <label class="search-box" for="knowledge-search">
+            <span id="knowledge-search-label" class="sr-only">Buscar conocimientos</span>
+            <input type="search" id="knowledge-search" placeholder="Buscar..." autocomplete="off">
+          </label>
+        </div>
+        <p id="knowledge-status" class="sr-only" role="status" aria-live="polite"></p>
+        <div class="knowledge-grid" id="knowledge-grid"></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects" aria-labelledby="projects-title">
+      <div class="container">
+        <h2 class="section-title" id="projects-title"></h2>
+        <p id="projects-status" class="sr-only" role="status" aria-live="polite"></p>
+        <div id="projects-list" class="projects-grid"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact" aria-labelledby="contact-title">
+      <div class="container">
+        <h2 class="section-title" id="contact-title"></h2>
+        <p class="contact-subtitle" id="contact-subtitle"></p>
+        <div class="contact-grid">
+          <div class="contact-social">
+            <h3 class="contact-social-title">Redes sociales</h3>
+            <div class="social-buttons" id="social-links"></div>
+          </div>
+          <div class="contact-form-wrap" id="contact-form-wrap"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p id="footer-copy"></p>
+    </div>
+  </footer>
+
+  <dialog id="image-modal" class="modal" aria-labelledby="modal-title">
+    <div class="modal-inner">
+      <h2 id="modal-title" class="sr-only">Vista ampliada</h2>
+      <div class="modal-content">
+        <img id="modal-image" src="" alt="">
+        <p id="modal-caption" class="modal-caption"></p>
+      </div>
+      <div class="modal-actions">
+        <button id="modal-download" class="btn btn-secondary" type="button">Descargar</button>
+        <button id="modal-close" class="btn btn-primary" type="button" aria-label="Cerrar">Cerrar</button>
+      </div>
+    </div>
+  </dialog>
+
+  <svg class="svg-sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <defs>
+      <filter id="hero-border-filter" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+        <feMorphology id="hero-border-morph" in="SourceAlpha" operator="dilate" radius="3" result="expanded"/>
+        <feFlood id="hero-border-flood" flood-color="#2563eb" result="border-color"/>
+        <feComposite in="border-color" in2="expanded" operator="in" result="border"/>
+        <feMerge>
+          <feMergeNode in="border"/>
+          <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+      </filter>
+    </defs>
+    <symbol id="icon-moon" viewBox="0 0 24 24"><path fill="currentColor" d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8z"/></symbol>
+    <symbol id="icon-sun" viewBox="0 0 24 24"><circle fill="currentColor" cx="12" cy="12" r="4"/><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M19.1 4.9l-1.4 1.4M6.3 17.7l-1.4 1.4"/></symbol>
+    <symbol id="icon-arrow-left" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M15 18l-6-6 6-6"/></symbol>
+    <symbol id="icon-arrow-right" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M9 6l6 6-6 6"/></symbol>
+  </svg>
+</body>
+</html>

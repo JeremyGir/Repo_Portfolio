@@ -1,0 +1,474 @@
+{
+  "site": {
+    "title": {
+      "es": "Jeremy Giraldo Sanchez — Portfolio",
+      "en": "Jeremy Giraldo Sanchez — Portfolio"
+    },
+    "language": "es",
+    "theme": "dark",
+    "description": {
+      "es": "Portfolio profesional de Jeremy Giraldo Sanchez, Ingeniero de Sistemas especializado en desarrollo full stack y arquitectura de software.",
+      "en": "Professional portfolio of Jeremy Giraldo Sanchez, Systems Engineer specialized in full stack development and software architecture."
+    }
+  },
+  "personal": {
+    "name": "Jeremy Giraldo Sanchez",
+    "role": {
+      "es": "Ingeniero de Sistemas",
+      "en": "Systems Engineer"
+    },
+    "photo": "assets/profile/foto_de_perfil.jpg",
+    "description": {
+      "es": "Ingeniero de Sistemas con experiencia en desarrollo de aplicaciones web y de escritorio. Apasionado por la arquitectura de software, las buenas prácticas y el aprendizaje continuo.",
+      "en": "Systems Engineer with experience in web and desktop application development. Passionate about software architecture, good practices and continuous learning."
+    }
+  },
+  "heroImage": {
+    "src": "assets/profile/fotoprincipal.png",
+    "alt": {
+      "es": "Jeremy Giraldo Sanchez",
+      "en": "Jeremy Giraldo Sanchez"
+    },
+    "borderColor": "#2563eb",
+    "borderWidth": 3,
+    "width": 320
+  },
+  "cvDownload": {
+    "file": "assets/docs/cv.pdf",
+    "downloadName": "Jeremy-Giraldo-Sanchez-CV.pdf"
+  },
+  "about": {
+    "title": {
+      "es": "Sobre mí",
+      "en": "About me"
+    },
+    "description": {
+      "es": "Soy Ingeniero de Sistemas con más de 5 años de experiencia construyendo soluciones robustas y escalables. Me especializo en el desarrollo backend con Java y en la orquestación de servicios mediante contenedores. Me gusta trabajar en equipo, compartir conocimiento y mantener un equilibrio entre calidad de código y valor de negocio.",
+      "en": "I am a Systems Engineer with over 5 years of experience building robust and scalable solutions. I specialize in backend development with Java and container-based service orchestration. I enjoy teamwork, sharing knowledge and keeping a balance between code quality and business value."
+    },
+    "details": [
+      {
+        "es": "Diseño y desarrollo de APIs REST seguras y eficientes.",
+        "en": "Design and development of secure, efficient REST APIs."
+      },
+      {
+        "es": "Automatización de despliegues con contenedores.",
+        "en": "Deployment automation with containers."
+      },
+      {
+        "es": "Trabajo colaborativo con metodologías ágiles.",
+        "en": "Collaborative work with agile methodologies."
+      },
+      {
+        "es": "Compromiso con la calidad, la seguridad y la documentación.",
+        "en": "Commitment to quality, security and documentation."
+      }
+    ]
+  },
+  "experience": [
+    {
+      "title": {
+        "es": "Desarrollador Full Stack",
+        "en": "Full Stack Developer"
+      },
+      "company": {
+        "es": "Empresa de Tecnología XYZ",
+        "en": "XYZ Technology Company"
+      },
+      "period": {
+        "es": "Ene 2022 — Actualidad",
+        "en": "Jan 2022 — Present"
+      },
+      "description": {
+        "es": "Desarrollo y mantenimiento de aplicaciones web empresariales utilizando Java, Spring Boot y React. Implementación de APIs RESTful, optimización de bases de datos y despliegue continuo con Docker y CI/CD.",
+        "en": "Development and maintenance of enterprise web applications using Java, Spring Boot, and React. Implementation of RESTful APIs, database optimization, and continuous deployment with Docker and CI/CD."
+      }
+    },
+    {
+      "title": {
+        "es": "Desarrollador Backend",
+        "en": "Backend Developer"
+      },
+      "company": {
+        "es": "Consultora ABC",
+        "en": "ABC Consulting"
+      },
+      "period": {
+        "es": "Mar 2020 — Dic 2021",
+        "en": "Mar 2020 — Dec 2021"
+      },
+      "description": {
+        "es": "Diseño e implementación de microservicios con Java y Spring. Gestión de bases de datos SQL y NoSQL. Colaboración en equipos ágiles con metodología Scrum.",
+        "en": "Design and implementation of microservices with Java and Spring. Management of SQL and NoSQL databases. Collaboration in agile teams using Scrum methodology."
+      }
+    }
+  ],
+  "knowledge": {
+    "title": {
+      "es": "Conocimientos",
+      "en": "Skills"
+    },
+    "items": [
+      {
+        "name": {
+          "es": "Java Fundacional",
+          "en": "Foundational Java"
+        },
+        "description": {
+          "es": "Curso introductorio de Java: sintaxis del lenguaje, programación orientada a objetos, estructuras de datos básicas y buenas prácticas.",
+          "en": "Introductory Java course covering language syntax, object-oriented programming, basic data structures and best practices."
+        },
+        "type": "Certificado",
+        "institution": {
+          "es": "Platzi",
+          "en": "Platzi"
+        },
+        "date": "2025",
+        "keywords": [
+          "java",
+          "backend",
+          {
+            "es": "programación",
+            "en": "programming"
+          },
+          "poo"
+        ],
+        "certificateImage": "assets/certificates/java.svg"
+      },
+      {
+        "name": {
+          "es": "Arquitectura de Software",
+          "en": "Software Architecture"
+        },
+        "description": {
+          "es": "Formación en diseño de sistemas: principios SOLID, patrones de arquitectura, modelado de sistemas y decisiones de diseño.",
+          "en": "Training in systems design: SOLID principles, architecture patterns, system modeling and design decisions."
+        },
+        "type": "Titulo",
+        "institution": {
+          "es": "Universidad Nacional",
+          "en": "National University"
+        },
+        "date": "2024",
+        "keywords": [
+          "arquitectura",
+          "patrones",
+          {
+            "es": "diseño",
+            "en": "design"
+          }
+        ],
+        "certificateImage": "assets/certificates/arquitectura.svg"
+      },
+      {
+        "name": {
+          "es": "Docker y Contenedores",
+          "en": "Docker and Containers"
+        },
+        "description": {
+          "es": "Aprendizaje de contenerización: imágenes, volúmenes, redes y despliegue de aplicaciones con Docker.",
+          "en": "Containerization learning: images, volumes, networks and application deployment with Docker."
+        },
+        "type": "Curso",
+        "institution": {
+          "es": "Udemy",
+          "en": "Udemy"
+        },
+        "date": "2025",
+        "keywords": [
+          "docker",
+          {
+            "es": "contenedores",
+            "en": "containers"
+          },
+          "devops"
+        ],
+        "certificateImage": "assets/certificates/docker.svg"
+      },
+      {
+        "name": {
+          "es": "Base de datos SQL",
+          "en": "SQL Database"
+        },
+        "description": {
+          "es": "Curso de bases de datos relacionales: modelado, consultas SQL, índices y optimización de consultas.",
+          "en": "Relational database course: modeling, SQL queries, indexes and query optimization."
+        },
+        "type": "Curso",
+        "institution": {
+          "es": "Coursera",
+          "en": "Coursera"
+        },
+        "date": "2023",
+        "keywords": [
+          "sql",
+          "mysql",
+          {
+            "es": "base de datos",
+            "en": "database"
+          }
+        ],
+        "certificateImage": "assets/certificates/sql.svg"
+      },
+      {
+        "name": {
+          "es": "Hazlo ya. Cómo Vencer la Procrastinación",
+          "en": "Do It Now. How to Beat Procrastination"
+        },
+        "description": {
+          "es": "Curso enfocado en técnicas prácticas para mejorar la productividad y superar la procrastinación.",
+          "en": "Course focused on practical techniques to improve productivity and overcome procrastination."
+        },
+        "type": "Curso",
+        "institution": {
+          "es": "Udemy",
+          "en": "Udemy"
+        },
+        "date": "2024",
+        "keywords": [
+          {
+            "es": "Motivación",
+            "en": "Motivation"
+          }
+        ],
+        "certificateImage": "assets/certificates/Hazlo_ya_Como_Vencer_la_Procrastinacion.jpg"
+      },
+      {
+        "name": {
+          "es": "JavaScript Moderno",
+          "en": "Modern JavaScript"
+        },
+        "description": {
+          "es": "Estudio autodidacta de JavaScript moderno: ES6+, asincronía, manipulación del DOM y consumo de APIs.",
+          "en": "Self-taught study of modern JavaScript: ES6+, async patterns, DOM manipulation and API consumption."
+        },
+        "type": "Tecnologias",
+        "institution": {
+          "es": "Autodidacta",
+          "en": "Self-taught"
+        },
+        "date": "2024",
+        "keywords": [
+          "javascript",
+          "frontend",
+          "web"
+        ],
+        "certificateImage": "assets/certificates/javascript.svg"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "proyecto-01",
+      "name": {
+        "es": "Sistema de Gestión de Inventarios",
+        "en": "Inventory Management System"
+      },
+      "description": {
+        "es": "Aplicación web para el control de inventario de una empresa mediana. Permite registrar productos, controlar existencias, generar reportes y administrar usuarios con distintos roles.",
+        "en": "Web application for inventory control in a mid-size company. It allows registering products, managing stock, generating reports and administering users with different roles."
+      },
+      "images": [
+        "assets/projects/proyecto-01/image-01.svg",
+        "assets/projects/proyecto-01/image-02.svg",
+        "assets/projects/proyecto-01/image-03.svg",
+        "assets/projects/proyecto-01/image-04.svg"
+      ],
+      "technologies": [
+        {
+          "name": "Java",
+          "icon": "assets/icons/java.svg"
+        },
+        {
+          "name": "Docker",
+          "icon": "assets/icons/docker.svg"
+        },
+        {
+          "name": "MySQL",
+          "icon": "assets/icons/mysql.svg"
+        }
+      ],
+      "pdf": "assets/projects/proyecto-01/proyecto.pdf"
+    },
+    {
+      "id": "proyecto-02",
+      "name": {
+        "es": "Plataforma de Reservas en Línea",
+        "en": "Online Booking Platform"
+      },
+      "description": {
+        "es": "Sistema de reservas para restaurantes y servicios. Incluye calendario de disponibilidad, notificaciones por correo y un panel de administración para gestionar las reservas.",
+        "en": "Booking system for restaurants and services. Includes an availability calendar, email notifications and an admin panel to manage bookings."
+      },
+      "images": [
+        "assets/projects/proyecto-02/image-01.svg",
+        "assets/projects/proyecto-02/image-02.svg",
+        "assets/projects/proyecto-02/image-03.svg"
+      ],
+      "technologies": [
+        {
+          "name": "Docker",
+          "icon": "assets/icons/docker.svg"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "assets/icons/javascript.svg"
+        }
+      ],
+      "pdf": "assets/projects/proyecto-02/proyecto.pdf"
+    }
+  ],
+  "contact": {
+    "title": {
+      "es": "Contacto",
+      "en": "Contact"
+    },
+    "subtitle": {
+      "es": "¿Tienes un proyecto en mente o quieres conversar? No dudes en escribirme.",
+      "en": "Have a project in mind or want to chat? Don't hesitate to reach out."
+    },
+    "form": {
+      "enabled": true,
+      "provider": "mailto",
+      "email": "correo@example.com"
+    },
+    "socialLinks": [
+      {
+        "name": "GitHub",
+        "icon": "assets/icons/github.svg",
+        "url": "https://github.com/"
+      },
+      {
+        "name": "X - Twitter",
+        "icon": "assets/icons/x.svg",
+        "url": "https://x.com/JeremyGiraldo28"
+      },
+      {
+        "name": "LinkedIn",
+        "icon": "assets/icons/linkedin.svg",
+        "url": "https://www.linkedin.com/in/jeremy-giraldo-799a16285"
+      }
+    ]
+  },
+  "texts": {
+    "nav": {
+      "home": { "es": "Inicio", "en": "Home" },
+      "about": { "es": "Sobre mí", "en": "About" },
+      "experience": { "es": "Experiencia", "en": "Experience" },
+      "knowledge": { "es": "Conocimientos", "en": "Skills" },
+      "projects": { "es": "Proyectos", "en": "Projects" },
+      "contact": { "es": "Contacto", "en": "Contact" },
+      "brandAria": { "es": "Ir al inicio", "en": "Go to home" },
+      "mainAria": { "es": "Navegación principal", "en": "Main navigation" }
+    },
+    "hero": {
+      "greeting": { "es": "Hola, soy", "en": "Hi, I'm" },
+      "ctaProjects": { "es": "Ver proyectos", "en": "View projects" },
+      "ctaContact": { "es": "Contactarme", "en": "Contact me" },
+      "downloadCv": { "es": "Descargar CV", "en": "Download CV" },
+      "photoAlt": { "es": "Foto de perfil", "en": "Profile photo" }
+    },
+    "about": {
+      "photoAlt": { "es": "Fotografía de", "en": "Photograph of" }
+    },
+    "experience": {
+      "title": { "es": "Experiencia", "en": "Experience" }
+    },
+    "knowledge": {
+      "title": { "es": "Conocimientos", "en": "Skills" },
+      "searchPlaceholder": { "es": "Buscar...", "en": "Search..." },
+      "searchLabel": { "es": "Buscar conocimientos", "en": "Search skills" },
+      "filtersAria": { "es": "Filtrar conocimientos por tipo", "en": "Filter skills by type" },
+      "filterAll": { "es": "Todos", "en": "All" },
+      "filters": {
+        "Certificado": { "es": "Certificados", "en": "Certificates" },
+        "Curso": { "es": "Cursos", "en": "Courses" },
+        "Titulo": { "es": "Titulos", "en": "Degrees" },
+        "Tecnologias": { "es": "Tecnologias", "en": "Technologies" }
+      },
+      "resultsCount": {
+        "singular": { "es": "elemento mostrado", "en": "item shown" },
+        "plural": { "es": "elementos mostrados", "en": "items shown" }
+      },
+      "empty": { "es": "No se encontraron resultados para tu búsqueda.", "en": "No results found for your search." },
+      "noImage": { "es": "Imagen no disponible", "en": "Image not available" },
+      "imageAlt": { "es": "Imagen del certificado:", "en": "Certificate image:" },
+      "imageExpand": { "es": "Ampliar certificado:", "en": "Expand certificate:" },
+      "imageExpandedAlt": { "es": "Imagen ampliada de", "en": "Expanded image of" }
+    },
+    "projects": {
+      "title": { "es": "Proyectos", "en": "Projects" },
+      "empty": { "es": "Aun no hay proyectos publicados.", "en": "No projects published yet." },
+      "docBtn": { "es": "Ver documentación", "en": "View documentation" },
+      "imageAlt": { "es": "Imagen del proyecto", "en": "Project image" },
+      "carouselLabel": { "es": "Carrusel de imágenes del proyecto", "en": "Project image carousel" },
+      "prevImage": { "es": "Imagen anterior", "en": "Previous image" },
+      "nextImage": { "es": "Imagen siguiente", "en": "Next image" },
+      "selectImage": { "es": "Seleccionar imagen del carrusel", "en": "Select carousel image" },
+      "goToImage": { "es": "Ir a la imagen", "en": "Go to image" },
+      "noImage": { "es": "Imagen no disponible", "en": "Image not available" }
+    },
+    "contact": {
+      "title": { "es": "Contacto", "en": "Contact" },
+      "subtitle": { "es": "¿Tienes un proyecto en mente o quieres conversar? No dudes en escribirme.", "en": "Have a project in mind or want to chat? Don't hesitate to reach out." },
+      "socialTitle": { "es": "Redes sociales", "en": "Social networks" },
+      "noSocial": { "es": "No hay redes sociales configuradas.", "en": "No social networks configured." },
+      "formDisabled": { "es": "El formulario de contacto está deshabilitado.", "en": "The contact form is disabled." },
+      "mailto": {
+        "subject": { "es": "Contacto", "en": "Contact" },
+        "intro": { "es": "Hola, te contacto a través de tu portfolio.", "en": "Hi, I'm contacting you through your portfolio." },
+        "fieldName": { "es": "Nombre", "en": "Name" },
+        "fieldCompany": { "es": "Empresa", "en": "Company" },
+        "fieldEmail": { "es": "Correo", "en": "Email" },
+        "fieldPhone": { "es": "Teléfono", "en": "Phone" }
+      },
+      "fields": {
+        "nombre": { "label": { "es": "Nombre de persona de contacto", "en": "Contact person name" } },
+        "empresa": { "label": { "es": "Nombre de la empresa", "en": "Company name" } },
+        "correo": { "label": { "es": "Correo de contacto", "en": "Contact email" } },
+        "telefono": { "label": { "es": "Número de contacto (opcional)", "en": "Phone number (optional)" } },
+        "asunto": { "label": { "es": "Asunto", "en": "Subject" } }
+      },
+      "emailHint": { "es": "Ejemplo: nombre@dominio.com", "en": "Example: name@domain.com" },
+      "submitBtn": { "es": "Enviar mensaje", "en": "Send message" },
+      "validation": {
+        "required": { "es": "Este campo es obligatorio.", "en": "This field is required." },
+        "invalidEmail": { "es": "Introduce un correo válido (ej. nombre@dominio.com).", "en": "Enter a valid email (e.g. name@domain.com)." },
+        "maxChars": { "es": "Máximo", "en": "Maximum" },
+        "chars": { "es": "caracteres.", "en": "characters." },
+        "fixFields": { "es": "Por favor, corrige los campos marcados.", "en": "Please correct the highlighted fields." },
+        "mailtoSuccess": { "es": "Se abrió tu aplicación de correo con el mensaje listo para enviar.", "en": "Your email app opened with the message ready to send." },
+        "noProvider": { "es": "El formulario no tiene un proveedor de envío configurado.", "en": "The form has no submission provider configured." }
+      },
+      "noConfigured": { "es": "No hay redes sociales configuradas.", "en": "No social networks configured." },
+      "socialLabel": { "es": "Red social", "en": "Social network" },
+      "socialLink": { "es": "Enlace", "en": "Link" },
+      "formLabel": { "es": "Formulario de contacto", "en": "Contact form" },
+      "noImageAvailable": { "es": "Imagen no disponible", "en": "Image not available" }
+    },
+    "footer": {
+      "copy": { "es": "© {{year}} {{name}} · {{role}}", "en": "© {{year}} {{name}} · {{role}}" }
+    },
+    "modal": {
+      "title": { "es": "Vista ampliada", "en": "Expanded view" },
+      "download": { "es": "Descargar", "en": "Download" },
+      "close": { "es": "Cerrar", "en": "Close" },
+      "noImage": { "es": "Imagen no disponible", "en": "Image not available" }
+    },
+    "skip": {
+      "link": { "es": "Saltar al contenido", "en": "Skip to content" }
+    },
+    "theme": {
+      "darkLabel": { "es": "Activar modo claro", "en": "Enable light mode" },
+      "lightLabel": { "es": "Activar modo oscuro", "en": "Enable dark mode" },
+      "darkAria": { "es": "Cambiar tema claro u oscuro", "en": "Toggle light/dark theme" }
+    },
+    "menu": {
+      "open": { "es": "Abrir menú", "en": "Open menu" },
+      "close": { "es": "Cerrar menú", "en": "Close menu" }
+    },
+    "langToggle": {
+      "label": { "es": "Cambiar idioma", "en": "Change language" }
+    }
+  }
+}

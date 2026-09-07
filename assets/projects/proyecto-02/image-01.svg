@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img">
+  <rect width="800" height="500" fill="#0f172a"/>
+  <rect x="40" y="40" width="720" height="420" fill="#1e293b"/>
+  <text x="400" y="250" font-family="sans-serif" font-size="30" text-anchor="middle" fill="#38bdf8">Proyecto 02 — imagen 01</text>
+  <text x="400" y="295" font-family="sans-serif" font-size="18" text-anchor="middle" fill="#64748b">Reemplaza este archivo por tu captura real.</text>
+</svg>

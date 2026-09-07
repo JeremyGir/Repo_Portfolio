@@ -1,0 +1,12 @@
+# Entorno local (nunca publicar posibles secretos/tokens)
+.env
+.env.*
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Notas de editor / IDE
+.vscode/
+.idea/
+*.swp
